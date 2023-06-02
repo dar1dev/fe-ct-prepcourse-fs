@@ -2,6 +2,7 @@
 /*2️⃣ EJERCICIO 02 2️⃣*/
 
 function devolverString(string) {
+   return string;
    // Debe retornar un string.
    // Tu código:
 }
@@ -9,26 +10,36 @@ function devolverString(string) {
 // ⛔️ "X" e "Y" son números.
 
 function suma(x, y) {
+   su = x + y
+   return su;
    // Retorna el resultado de su suma.
    // Tu código:
 }
 
 function resta(x, y) {
+   re = x - y
+   return re;
    // Retorna el resultado de la resta.
    // Tu código:
 }
 
 function divide(x, y) {
+   div = x / y
+   return div;
    // Retorna el resultado de su división.
    // Tu código:
 }
 
 function multiplica(x, y) {
+   mul = x * y
+   return mul;
    // Retorna el resultado de su multiplicación.
    // Tu código:
 }
 
 function obtenerResto(x, y) {
+   restDiv = x % y
+   return restDiv;
    // Obten el resto de la división de "x" entre "y".
    // Tu código:
 }
